@@ -1,6 +1,6 @@
 package chapter_1;
 
-public class Exercise_4 {
+public class Exercise_04 {
     public static void main(String[] args) {
 
         System.out.println("i" + "\t" + "i^2" + "\t" + "i^3");

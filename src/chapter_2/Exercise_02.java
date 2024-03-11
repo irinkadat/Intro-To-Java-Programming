@@ -15,8 +15,8 @@ public class Exercise_02 {
         double area = Math.PI * radius * radius;
         double volume = area * length;
 
-        System.out.println("The area is: " + String.format("%.2f", area));
-        System.out.println("The volume is: " + String.format("%.2f", volume));
+        System.out.println("The area is: " +  area);
+        System.out.println("The volume is: " +  volume);
 
     }
 }

@@ -8,7 +8,6 @@ public class Exercise_01 {
         double celsius = obj.nextDouble();
 
         double res = celsiusToFahrenheit(celsius);
-
         System.out.printf("%.2f Celsius is %.2f Fahrenheit ",celsius, res);
 
         obj.close();
