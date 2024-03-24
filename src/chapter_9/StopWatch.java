@@ -1,4 +1,4 @@
-package chapter_9.exercise_6;
+package chapter_9;
 
 public class StopWatch {
     private long startTime;

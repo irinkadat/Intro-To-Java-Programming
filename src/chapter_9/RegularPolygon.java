@@ -1,4 +1,4 @@
-package chapter_9.exercise_9;
+package chapter_9;
 
 public class RegularPolygon {
     private int n;

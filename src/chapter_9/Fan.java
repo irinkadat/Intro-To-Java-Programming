@@ -1,4 +1,4 @@
-package chapter_9.exercise_8;
+package chapter_9;
 
 public class Fan {
     private final int SLOW = 1;

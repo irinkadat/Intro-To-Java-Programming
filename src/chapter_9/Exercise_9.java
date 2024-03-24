@@ -1,6 +1,6 @@
-package chapter_9.exercise_9;
+package chapter_9;
 
-public class exercise_9 {
+public class Exercise_9 {
     public static void main(String[] args) {
         RegularPolygon polygon1 = new RegularPolygon();
         RegularPolygon polygon2 = new RegularPolygon(6, 4);

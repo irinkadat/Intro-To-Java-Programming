@@ -1,6 +1,6 @@
-package chapter_9.exercise_8;
+package chapter_9;
 
-public class exercise_8 {
+public class Exercise_8 {
 
     public static void main(String[] args) {
         Fan fan1 = new Fan();
