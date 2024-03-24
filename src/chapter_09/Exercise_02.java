@@ -1,6 +1,6 @@
-package chapter_9;
+package chapter_09;
 
-public class Exercise_2 {
+public class Exercise_02 {
     public static void main(String[] args) {
         Stock oracle = new Stock("ORCL", "Oracle Corporation");
 

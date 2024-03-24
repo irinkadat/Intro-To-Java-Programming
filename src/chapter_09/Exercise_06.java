@@ -1,6 +1,6 @@
-package chapter_9;
+package chapter_09;
 
-public class Exercise_6 {
+public class Exercise_06 {
 
     public static void main(String[] args) {
         StopWatch stopwatch = new StopWatch();

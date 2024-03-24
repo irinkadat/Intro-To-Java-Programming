@@ -1,7 +1,7 @@
-package chapter_9;
+package chapter_09;
 import java.util.GregorianCalendar;
 
-public class Exercise_5 {
+public class Exercise_05 {
 
     public static void main(String[] args) {
         System.out.println("Current Date: ");

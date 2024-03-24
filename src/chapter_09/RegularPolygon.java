@@ -1,4 +1,4 @@
-package chapter_9;
+package chapter_09;
 
 public class RegularPolygon {
     private int n;

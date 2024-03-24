@@ -1,7 +1,7 @@
-package chapter_9;
+package chapter_09;
 import java.util.Random;
 
-public class Exercise_4 {
+public class Exercise_04 {
     public static void main(String[] args) {
         Random rand = new Random(1000);
 
