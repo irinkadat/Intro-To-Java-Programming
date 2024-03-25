@@ -1,17 +1,18 @@
 package chapter_12;
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise_1 {
+public class Exercise_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
             while (true) {
                 System.out.print("Enter First num: ");
-                double num1 = scanner.nextDouble();
+                String num1Str = scanner.next();
+                double num1 = Double.parseDouble(num1Str);
 
                 System.out.print("Enter second num: ");
-                double num2 = scanner.nextDouble();
+                String num2Str = scanner.next();
+                double num2 = Double.parseDouble(num2Str);
 
                 System.out.print("Enter operator (+, -, *, /): ");
                 char operator = scanner.next().charAt(0);
@@ -45,7 +46,7 @@ public class Exercise_1 {
                     break;
                 }
             }
-        } catch (InputMismatchException ex) {
+        } catch (NumberFormatException ex) {
             System.out.println("Error: Input is not a valid number");
         } catch (ArithmeticException | IllegalArgumentException ex) {
             System.out.println("Error: " + ex.getMessage());
@@ -54,9 +55,8 @@ public class Exercise_1 {
         }
 
 
+// Code without error handler
 
-        // Code without error handler
-//        Scanner scanner = new Scanner(System.in);
 //        while (true) {
 //            System.out.print("Enter First num: ");
 //            double num1 = scanner.nextDouble();
