@@ -1,7 +1,7 @@
 package chapter_10;
 import java.util.Scanner;
 
-public class Exercise_7 {
+public class Exercise_07 {
 
     private static Account[] accounts = new Account[10];
 

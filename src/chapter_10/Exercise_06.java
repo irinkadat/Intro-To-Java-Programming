@@ -3,7 +3,7 @@ package chapter_10;
  than 120 in decreasing order. Use the StackOfIntegers class to store the prime numbers
  (e.g., 2, 3, 5, ...) and retrieve and display them in reverse order. */
 
-public class Exercise_6 {
+public class Exercise_06 {
     public static void main(String[] args) {
         StackOfIntegers primesStack = new StackOfIntegers();
 

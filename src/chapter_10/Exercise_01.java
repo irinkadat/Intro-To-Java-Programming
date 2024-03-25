@@ -1,6 +1,6 @@
 package chapter_10;
 
-public class Exercise_1 {
+public class Exercise_01 {
     // page 422
     public static void main(String[] args) {
         Time currentTime = new Time();

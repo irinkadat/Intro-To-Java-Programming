@@ -1,6 +1,6 @@
 package chapter_10;
 
-public class Exercise_3 {
+public class Exercise_03 {
     public static void main(String[] args) {
 
         MyInteger num1 = new MyInteger(10);
