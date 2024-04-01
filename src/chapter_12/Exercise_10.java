@@ -1,5 +1,8 @@
 package chapter_12;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Exercise_10 {
     public static void main(String[] args) {
         try {
